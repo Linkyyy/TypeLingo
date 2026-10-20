@@ -1,7 +1,7 @@
 {
-  "workflow_run": "39403250327",
-  "data": "isolated UI fixtures; no user data",
+  "source_commit": "aaebf94d4f89a018ab2b67a4ce61feca13b4cc77",
+  "workflow_run": "39434288424",
   "captured_on": "Windows GitHub Actions",
-  "passed": true,
-  "source_commit": "a8d9fe9f7b9272d246e8aa21fbfe6d22d37010bf"
+  "passed": false,
+  "data": "isolated UI fixtures; no user data"
 }

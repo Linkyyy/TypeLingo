@@ -1,0 +1,61 @@
+主页位于导航顶部并默认打开
+真实 WPF 设置窗口已启动并完成布局
+切换并聚焦 Tab 不改变导航行与文字坐标：home
+不同页面保持相同内容视口宽度：home
+切换并聚焦 Tab 不改变导航行与文字坐标：prompts
+不同页面保持相同内容视口宽度：prompts
+切换并聚焦 Tab 不改变导航行与文字坐标：general
+不同页面保持相同内容视口宽度：general
+切换并聚焦 Tab 不改变导航行与文字坐标：vocabulary
+不同页面保持相同内容视口宽度：vocabulary
+切换并聚焦 Tab 不改变导航行与文字坐标：ai
+不同页面保持相同内容视口宽度：ai
+切换并聚焦 Tab 不改变导航行与文字坐标：appearance
+不同页面保持相同内容视口宽度：appearance
+切换并聚焦 Tab 不改变导航行与文字坐标：hotkeys
+不同页面保持相同内容视口宽度：hotkeys
+切换并聚焦 Tab 不改变导航行与文字坐标：cache
+不同页面保持相同内容视口宽度：cache
+切换并聚焦 Tab 不改变导航行与文字坐标：privacy
+不同页面保持相同内容视口宽度：privacy
+切换并聚焦 Tab 不改变导航行与文字坐标：favorites
+不同页面保持相同内容视口宽度：favorites
+空搜索框聚焦时隐藏占位文字，光标不与占位文字重叠
+真实搜索光标位于输入区左侧（位置 14,11.684999999999999,0,14.63，焦点 True，尺寸 187 × 38）
+空搜索框失焦后恢复占位提示
+设置窗口与托盘使用可加载的新图标资源
+首页加载 C 方案图标原始资源并完整显示
+浅色任务栏加载透明黑色 C 托盘图标
+深色任务栏加载透明白色 C 托盘图标
+Windows 可从自包含程序提取已嵌入的 C 图标
+默认主题可跟随 Windows 系统
+默认以鼠标划词触发，输入自动预览保留为可选项
+离线优先、在线回退和自动积累默认开启
+实际 WPF 资源完整应用主题：paper / light
+托盘菜单同步主题：paper / light
+主题切换不改变导航坐标：paper / light
+实际 WPF 资源完整应用主题：paper / dark
+托盘菜单同步主题：paper / dark
+主题切换不改变导航坐标：paper / dark
+实际 WPF 资源完整应用主题：forest / light
+托盘菜单同步主题：forest / light
+主题切换不改变导航坐标：forest / light
+实际 WPF 资源完整应用主题：forest / dark
+托盘菜单同步主题：forest / dark
+主题切换不改变导航坐标：forest / dark
+实际 WPF 资源完整应用主题：ocean / light
+托盘菜单同步主题：ocean / light
+主题切换不改变导航坐标：ocean / light
+实际 WPF 资源完整应用主题：ocean / dark
+托盘菜单同步主题：ocean / dark
+主题切换不改变导航坐标：ocean / dark
+实际 WPF 资源完整应用主题：lavender / light
+托盘菜单同步主题：lavender / light
+主题切换不改变导航坐标：lavender / light
+实际 WPF 资源完整应用主题：lavender / dark
+托盘菜单同步主题：lavender / dark
+主题切换不改变导航坐标：lavender / dark
+外观预览不会自动覆盖已保存的配置
+关闭窗口时恢复已保存的配色与明暗模式
+常见笔记本高度下，四个首页快捷入口在首屏完整可见
+未授权时首页主按钮引导到隐私设置
