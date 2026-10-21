@@ -37,6 +37,12 @@ Windows 可从自包含程序提取已嵌入的 C 图标
 实际 WPF 资源完整应用主题：paper / dark
 托盘菜单同步主题：paper / dark
 主题切换不改变导航坐标：paper / dark
+实际 WPF 资源完整应用主题：white / light
+托盘菜单同步主题：white / light
+主题切换不改变导航坐标：white / light
+实际 WPF 资源完整应用主题：white / dark
+托盘菜单同步主题：white / dark
+主题切换不改变导航坐标：white / dark
 实际 WPF 资源完整应用主题：forest / light
 托盘菜单同步主题：forest / light
 主题切换不改变导航坐标：forest / light
@@ -106,6 +112,7 @@ Loading 开关可保存并持久化
 新用户默认百科预设与先选择任务的划选即问模式
 内置预设可查看且不会被误修改
 新建预设拥有独立标识且列表保持该自定义预设选中
+短标签下拉框按所选文字收紧，不保留原来的整行固定宽度
 自定义提示词和默认任务通过真实设置界面保存并可重载
 删除默认自定义预设后安全回退到百科
 提问面板具有完整不透明背景且右侧操作按钮位于可见区域内
@@ -114,8 +121,10 @@ Loading 开关可保存并持久化
 UIA 不读取自己的问题框且不会将提问文字替换为查询选区
 百科请求携带捕获选区和用户问题，进入可取消的查询状态
 回答可选择与滚动，完成后恢复任务输入
+百科结果默认收起任务编辑器与完整原文，使用简洁阅读界面
 查询结果支持真实剪贴板复制
 AI 回答收藏保留任务和用户问题
+追问按需展开输入，保留原选区和已经生成的回答
 长篇百科回答在窗口内滚动且适应屏幕高度
 关闭会清除提问会话，迟到回答不能重新打开窗口
 自由提问需要填写问题，空白不会调用 API
@@ -134,7 +143,7 @@ AI 回答收藏保留任务和用户问题
 鼠标离开阅读文字后仍复核原选区，允许操作悬浮窗
 清除阅读选区后立即停止预览，不回退到全文或输入行
 鼠标按住拖选时不发送中间选区
-真实鼠标拖选并松开后捕获只读阅读区的完整选中文字：{"Identity":"1156:1156:66072:7.1156.31093287","Text":"selected reading phrase","Bounds":{"X":84,"Y":421,"Width":187,"Height":20},"CanWrite":false,"IsComposing":false,"IsSensitive":false,"IsSelection":true,"ControlBounds":{"X":76,"Y":413,"Width":615,"Height":100},"EditRange":null}; fixture={"Text":"selected reading phrase\r\n","Focus":"FlowDocumentScrollViewer","IsKeyboardFocusWithin":true,"Focusable":true,"IsActive":true,"LeftButton":"Released","Events":["down:9,18.039999999999964","move:9,18.039999999999964","move:197,18.039999999999964","up:197,18.039999999999964"],"Start":"8,8,0,20.453333333333333","End":"194.67000000000002,8,0,20.453333333333333","Scope":"FlowDocumentView"}
+真实鼠标拖选并松开后捕获只读阅读区的完整选中文字：{"Identity":"8140:8140:131574:7.8140.63248075","Text":"selected reading phrase","Bounds":{"X":110,"Y":447,"Width":187,"Height":20},"CanWrite":false,"IsComposing":false,"IsSensitive":false,"IsSelection":true,"ControlBounds":{"X":102,"Y":439,"Width":615,"Height":100},"EditRange":null,"SelectionRevision":1}; fixture={"Text":"selected reading phrase\r\n","Focus":"FlowDocumentScrollViewer","IsKeyboardFocusWithin":true,"Focusable":true,"IsActive":true,"LeftButton":"Released","Events":["down:9,18.039999999999964","move:9,18.039999999999964","move:197,18.039999999999964","up:197,18.039999999999964"],"Start":"8,8,0,20.453333333333333","End":"194.67000000000002,8,0,20.453333333333333","Scope":"FlowDocumentView"}
 阅读选区继续遵守进程排除项
 鼠标选区超过长度限制时跳过，不回退翻译其他输入框的旧选区
 可编辑选区具有精确写入范围
@@ -146,6 +155,7 @@ AI 回答收藏保留任务和用户问题
 确认期间内容变化时拒绝旧范围写入
 仅提供 TextPattern 的真实富文本控件，无选区也能自动预览当前行
 三种触发方式继续跳过真实密码框
+微信式自绘控件验收进程就绪
 真实 WebView2 富文本验收进程已启动
 WebView2 未选中文本时自动捕获光标所在行，跳过聊天记录与其他行
 真实 WebView2 渲染进程与宿主 PID 不同，按前台窗口归属验证
