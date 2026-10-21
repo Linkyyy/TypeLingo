@@ -1,0 +1,12 @@
+System.AggregateException: 跨进程选区验收失败 (Data on clipboard is invalid (0x800401D3 (CLIPBRD_E_BAD_DATA)))
+ ---> System.Runtime.InteropServices.COMException (0x800401D3): Data on clipboard is invalid (0x800401D3 (CLIPBRD_E_BAD_DATA))
+   at System.Runtime.InteropServices.ComTypes.IDataObject.GetData(FORMATETC& format, STGMEDIUM& medium)
+   at System.Windows.DataObject.OleConverter.GetDataFromOleHGLOBAL(String format, DVASPECT aspect, Int32 index)
+   at System.Windows.DataObject.OleConverter.GetDataFromBoundOleDataObject(String format, DVASPECT aspect, Int32 index)
+   at System.Windows.DataObject.OleConverter.GetData(String format, Boolean autoConvert, DVASPECT aspect, Int32 index)
+   at System.Windows.DataObject.OleConverter.GetData(String format, Boolean autoConvert)
+   at System.Windows.Clipboard.GetText(TextDataFormat format)
+   at DotKnow.UiSmoke.WeChatFixture.Verify(Action`2 check) in D:\a\TypeLingo\TypeLingo\tools\DotKnow.UiSmoke\WeChatFixture.cs:line 49
+   at DotKnow.UiSmoke.Program.Main(String[] args) in D:\a\TypeLingo\TypeLingo\tools\DotKnow.UiSmoke\Program.cs:line 303
+   --- End of inner exception stack trace ---
+   at DotKnow.UiSmoke.Program.Main(String[] args) in D:\a\TypeLingo\TypeLingo\tools\DotKnow.UiSmoke\Program.cs:line 307
