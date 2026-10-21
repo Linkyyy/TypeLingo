@@ -1,0 +1,7 @@
+System.AggregateException: 跨进程选区验收失败 (微信式无 TextPattern 自绘文本可通过快捷键捕获选区，且不具备替换权限)
+ ---> System.InvalidOperationException: 微信式无 TextPattern 自绘文本可通过快捷键捕获选区，且不具备替换权限
+   at DotKnow.UiSmoke.Program.<>c__DisplayClass0_0.<Main>g__Check|9(Boolean condition, String message) in D:\a\TypeLingo\TypeLingo\tools\DotKnow.UiSmoke\Program.cs:line 49
+   at DotKnow.UiSmoke.WeChatFixture.Verify(Action`2 check) in D:\a\TypeLingo\TypeLingo\tools\DotKnow.UiSmoke\WeChatFixture.cs:line 43
+   at DotKnow.UiSmoke.Program.Main(String[] args) in D:\a\TypeLingo\TypeLingo\tools\DotKnow.UiSmoke\Program.cs:line 303
+   --- End of inner exception stack trace ---
+   at DotKnow.UiSmoke.Program.Main(String[] args) in D:\a\TypeLingo\TypeLingo\tools\DotKnow.UiSmoke\Program.cs:line 307
