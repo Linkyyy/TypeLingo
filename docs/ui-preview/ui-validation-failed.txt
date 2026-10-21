@@ -1,0 +1,7 @@
+System.AggregateException: 跨进程选区验收失败 (兼容读取后恢复原剪贴板文字和 HTML 格式)
+ ---> System.InvalidOperationException: 兼容读取后恢复原剪贴板文字和 HTML 格式
+   at DotKnow.UiSmoke.Program.<>c__DisplayClass0_0.<Main>g__Check|9(Boolean condition, String message) in D:\a\TypeLingo\TypeLingo\tools\DotKnow.UiSmoke\Program.cs:line 49
+   at DotKnow.UiSmoke.WeChatFixture.Verify(Action`2 check) in D:\a\TypeLingo\TypeLingo\tools\DotKnow.UiSmoke\WeChatFixture.cs:line 49
+   at DotKnow.UiSmoke.Program.Main(String[] args) in D:\a\TypeLingo\TypeLingo\tools\DotKnow.UiSmoke\Program.cs:line 303
+   --- End of inner exception stack trace ---
+   at DotKnow.UiSmoke.Program.Main(String[] args) in D:\a\TypeLingo\TypeLingo\tools\DotKnow.UiSmoke\Program.cs:line 307
